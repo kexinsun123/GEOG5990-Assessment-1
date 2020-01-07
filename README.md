@@ -9,4 +9,5 @@ If clicking on "Run model" on the menu of "Model" of Model window, then the anim
 Console 1/A window shows some texts and figures starting from "Move Eat and Share" and ending by "Plot", which represents a loop.
 The process is iterated 100 times and then the animation and the Console 1/A window stop updating until clicking "Run model" again to continue the process. If this action is repeated enough, then an increasing area of shadow will cover the background.
 This animation simulates the process by which 10 sheeps eat grass.
+There are two obvious issues: the first one is that the pop-up window "Figure" is never used or influenced when running the model, the second one is that a warning symbol indicate "local variable 'animation' is assigned to but never used"; but effective solutions have not been found.
 See the MIT LICENSE. 
