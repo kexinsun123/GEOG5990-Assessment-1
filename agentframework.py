@@ -35,7 +35,7 @@ class Agent():
             self.environment[self.y][self.x] -= 10
             self.store += 10
 
-#This funcation caluclates the distance between self and a parameter:    
+#This funcation caluclates the distance between self and a parameter.    
     def distance_between(self, agent):
         """ This funcation caluclated the distance beteen self and a
         Parameters:
