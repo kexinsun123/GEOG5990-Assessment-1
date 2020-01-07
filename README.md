@@ -10,4 +10,6 @@ Console 1/A window shows some texts and figures starting from "Move Eat and Shar
 The process is iterated 100 times and then the animation and the Console 1/A window stop updating until clicking "Run model" again to continue the process. If this action is repeated enough, then an increasing area of shadow will cover the background.
 This animation simulates the process by which 10 sheeps eat grass.
 There are two obvious issues: the first one is that the pop-up window "Figure" is never used or influenced when running the model, the second one is that a warning symbol indicate "local variable 'animation' is assigned to but never used"; but effective solutions have not been found.
+The code "matplotlib.pyplot.imshow(environment)" is designed to test whether the data from "in.txt" is read correctly or not and the test result prove the data reading is correct, which means that the environment can be suitable for next step.
+For further roadmap, it is useful to set up a GUI to input or modify parameters without having to modify the code so that more changes can be shown in the model.
 See the MIT LICENSE. 
