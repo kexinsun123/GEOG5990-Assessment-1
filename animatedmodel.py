@@ -44,7 +44,7 @@ for row in reader:
     print(value)
 f.close() 
 
-# Adjust the agent initialisation loop.
+#Adjust the agent initialisation loop.
 for i in range(num_of_agents):
     y = int(td_ys[i].text)
     x = int(td_xs[i].text)
@@ -68,7 +68,7 @@ def update(frame_number):
 #        carry_on = False
 #        print("stopping condition")    
     
-#    Randomize the order of agent actions
+#Randomize the order of agent actions
 	print("Plot")
     for i in range(num_of_agents):
         matplotlib.pyplot.scatter(agents[i].x,agents[i].y)
