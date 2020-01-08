@@ -67,7 +67,9 @@ def update(frame_number):
 #    if random.random() < 0.1:
 #        carry_on = False
 #        print("stopping condition")    
-    print("Plot")
+    
+#    Randomize the order of agent actions
+	print("Plot")
     for i in range(num_of_agents):
         matplotlib.pyplot.scatter(agents[i].x,agents[i].y)
     matplotlib.pyplot.imshow(environment)
