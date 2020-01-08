@@ -12,7 +12,7 @@ import csv
 
 matplotlib.use('TkAgg')
 
-#Initialise the model with the y and x data.
+#Get the y and x data from the site.
 r = requests.get('http://www.geog.leeds.ac.uk/courses/computing/practicals/python/agent-framework/part9/data.html')
 content = r.text
 soup = bs4.BeautifulSoup(content, 'html.parser')
@@ -31,7 +31,7 @@ fig = matplotlib.pyplot.figure(figsize=(7, 7))
 ax = fig.add_axes([0, 0, 1, 1])
 #ax.set_autoscale_on(False)
 
-#Adjust the environment.
+#Read in environment data.
 environment=[]
 f = open('in.txt', newline='')
 reader = csv.reader(f, quoting=csv.QUOTE_NONNUMERIC)
@@ -80,7 +80,7 @@ def gen_function(b = [0]):
         yield a			
         a = a + 1
 
-#Add a function to run the model.
+#Display the model as an animation.
 def run():
     animation = matplotlib.animation.FuncAnimation(fig, update, frames=gen_function, repeat=False)
     canvas.draw()
