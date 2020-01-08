@@ -1,6 +1,6 @@
 import random
 
-#Set up a class.
+#Build agents.
 class Agent():
     def __init__ ( self, x, y, environment, agents, neighbourhood):
         self.environment = environment
@@ -38,12 +38,6 @@ class Agent():
 
 #This funcation caluclates the distance between self and a parameter.    
     def distance_between(self, agent):
-        """ This funcation caluclated the distance beteen self and a
-        Parameters:
-            a is an agent
-        Returns:
-            a numerical distance
-        """
         return (((self.x - agent.x)**2) + ((self.y - agent.y)**2))**0.5 
 
 #This function makes neighbours interact with each other.    
