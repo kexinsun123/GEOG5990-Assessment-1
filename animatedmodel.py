@@ -24,7 +24,6 @@ print(td_xs)
 #Make sure the numbers of agents and iterations.
 num_of_agents = 10
 num_of_iterations = 100
-neibourhood = 20
 agents = []
 
 #Give the appropriate figuresize and axes.
