@@ -29,6 +29,7 @@ class Agent():
             self.y = (self.y + 1) % 300
          else:
             self.y = (self.y - 1) % 300
+            
 #This function shows the process of eating.           
     def eat(self): 
          if self.environment[self.y][self.x] > 10:
