@@ -1,5 +1,5 @@
 # GEOG5990-Assessment-1
-This repository is for assessment 1 of the course of GEOG5990.
+This repository is for assessment 1 of the course GEOG5990.
 
 **List of files**
 This is README, including agentframework file, animatedmodel file and in file.
