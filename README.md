@@ -13,7 +13,7 @@ Both python files(agentframework.py and animatedmodel.py) are finished and teste
 2.Note that the Bakend of Graphics is "Tkinter", which can be found on the top of the window(Tools-References-Ipython console-Graphics-Backend-Tkinter).
 
 **Running outputs** 
-1.When it runs, two pop-up windows called "Figure" and "Model" respectively are shown on the main window. Meanwhile, Console 1/A window shows <td class="y">int</td>,<td class="x">int</td> and values in "in.txt".
+1.When it runs, two pop-up windows called "Figure" and "Model" are respectively shown on the main window. Meanwhile, Console 1/A window shows <td class="y">int</td>,<td class="x">int</td> and values in "in.txt".
 
 2.If clicking on "Run model" on the menu of "Model" of Model window, then the animation appears with the green-blue background in the square of 300*300. Ten points move from top-left corner to differen and random directions and leave the moving path represented as shadows.
 
